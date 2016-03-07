@@ -11,7 +11,7 @@ from ftplib import FTP
 #全局变量
 PUBLIC_FOLDER_NAME = 'public'
 #目标压缩包文件名
-TARGET_ZIP_FILE_NAME = 'a-ftp-deplog.zip'
+TARGET_ZIP_FILE_NAME = 'a-ftp-deploy.zip'
 #FTP参数
 FTP_IP = "网站FTP IP地址"
 FTP_USER_NAME = '用户名'
