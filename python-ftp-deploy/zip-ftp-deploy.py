@@ -50,5 +50,6 @@ if __name__ == '__main__':
         ftp.storbinary('STOR %s' % TARGET_ZIP_FILE_NAME, f)
         f.close()
         ftp.close()
+        os.remove(zip_file_path)
     else:
         print "failed"
