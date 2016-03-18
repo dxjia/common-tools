@@ -12,7 +12,7 @@ Create a JDK configuration named "1.6 (No Libraries)" by adding a new JDK like y
 
 ## From the project's root directory...
 Repeat these steps after each sync...
-- 1) make (to produce generated .java source), if don`t want to compile the whole source code, try copy the [idegen.jar](https://github.com/dxjia/common-tools/blob/master/read_aosp_through_intellij/idegen.jar) to `out/host/linux-x86/framework/` folder, and start step 2
+- 1) make (to produce generated .java source), if dont want to compile the whole source code, try copy the [idegen.jar](https://github.com/dxjia/common-tools/blob/master/read_aosp_through_intellij/idegen.jar) to `out/host/linux-x86/framework/` folder, and start step 2
 - 2) development/tools/idegen/idegen.sh
 - 3) Open android.ipr in IntelliJ. If you already have the project open, hit the sync button in IntelliJ, and it will automatically detect the updated configuration.
 If you get unexpected compilation errors from IntelliJ, try running "Build -> Rebuild Project". Sometimes IntelliJ gets confused after the project changes significantly.
